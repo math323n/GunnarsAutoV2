@@ -13,11 +13,11 @@ using System.Windows.Shapes;
 namespace GunnarsAutoV2
 {
     /// <summary>
-    /// Interaction logic for loginScreen.xaml
+    /// Interaction logic for LoginWindow.xaml
     /// </summary>
-    public partial class loginScreen: Window
+    public partial class LoginWindow: Window
     {
-        public loginScreen()
+        public LoginWindow()
         {
             InitializeComponent();
         }

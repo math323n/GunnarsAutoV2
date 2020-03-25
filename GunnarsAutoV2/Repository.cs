@@ -9,7 +9,8 @@ namespace GunnarsAuto
     {
         public static List<Car> cars = new List<Car>();
         public static List<SalesPerson> salesPersons = new List<SalesPerson>();
-        private const string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=GunnarsAutoDB;Integrated Security=True";
+        private const string connectionString = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=GunnarsAutoDB;Integrated Security=True";
+
 
         public static List<Car> GetAllVehicles()
         {
